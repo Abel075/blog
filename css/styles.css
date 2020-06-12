@@ -8,6 +8,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 /** Body **/
 
 body {
@@ -47,4 +49,61 @@ img {
 .centrar-texto {
 
   text-align: center;
+}
+.no-margin {
+  margin: 0;
+}
+
+
+/** Header **/
+@media(min-width:768px) {
+  .barra {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: ) {
+  
+}
+
+.site-header {
+  background-image: url(../img/banner.jpg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 40rem;
+}
+
+
+.site-header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.site-header h1 {
+  text-align: center;
+  font-weight: 400;
+} 
+
+.site-header h1 span {
+  font-weight: 700;
+
+}
+
+/** navegacion **/
+
+.navegacion a {
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+}
+
+/** Texto  Header **/
+
+.texto-header {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 4rem;
+}
+.texto-header p {
+  font-size: 2rem;
 }
