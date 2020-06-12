@@ -56,6 +56,14 @@ img {
   margin: 0;
 }
 
+/** Grid**/
+@media (min-width: 768px) {
+  .grid {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 /**Botones **/
 
 .btn {
@@ -243,3 +251,6 @@ flex-wrap: wrap;
   font-size: 3rem;
   color: #ffffff;
 }
+
+/** Nosotros **/
+
